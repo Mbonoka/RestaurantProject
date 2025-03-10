@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <v-container fluid class="menu-container">
       <!-- Menu Title -->
       <v-container>
         <v-card color="blue" class="text-center">
@@ -164,5 +164,10 @@
   .text-center {
     text-align: center;
   }
+ .menu-container {
+      background: url('/background1.jpg') no-repeat center center/cover;
+      min-height: 100vh;
+      padding: 5rem 2rem;
+    }
   </style>
   

@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container fluid class="feedback-container">
     <v-card class="pa-5" elevation="3">
       <v-card-title class="text-h5 text-center">We Value Your Feedback</v-card-title>
       <v-card-subtitle class="text-center">Tell us about your experience at Moho!</v-card-subtitle>
@@ -57,4 +57,9 @@ const submitFeedback = () => {
 .v-card {
   border-radius: 12px;
 }
+.feedback-container {
+      background: url('/background1.jpg') no-repeat center center/cover;
+      min-height: 100vh;
+      padding: 5rem 2rem;
+    }
 </style>

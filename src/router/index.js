@@ -7,6 +7,7 @@ import BookingForm from '@/components/BookingForm.vue'
 import AboutPage from '@/components/AboutPage.vue'
 import ContactUs from '@/components/ContactUs.vue'
 import FeedbackForm from '@/components/FeedbackForm.vue'
+import StaffLogin from '@/components/StaffLogin.vue'
 const routes = [
   {
     path:'/',
@@ -39,6 +40,10 @@ const routes = [
   {
     path:'/RestaurantList',
     component: RestaurantList
+    },
+    {
+    path:'/StaffLogin',
+    component: StaffLogin
     }
 
 ]

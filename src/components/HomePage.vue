@@ -9,7 +9,7 @@
         <v-carousel-item src="/food7.jpg" cover> </v-carousel-item>
     </v-carousel>
     </v-card>
-    <v-container>
+    <v-container fluid class="homepage-container">
             <v-card class="mx-auto" elevation="24">
                 <v-container>
                 <v-row>
@@ -108,6 +108,13 @@
         </v-container>
     </template>
     
+    <style scoped>
+    .homepage-container {
+      background: url('/background1.jpg') no-repeat center center/cover;
+      min-height: 100vh;
+      padding: 5rem 2rem;
+    }
+</style>
     <script setup>
      
     </script>
