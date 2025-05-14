@@ -2,16 +2,16 @@
   <v-container fluid class="feedback-container">
     <v-card class="pa-5" elevation="3">
       <v-card-title class="text-h5 text-center">We Value Your Feedback</v-card-title>
-      <v-card-subtitle class="text-center">Tell us about your experience at Moho!</v-card-subtitle>
-      
+      <v-card-subtitle class="text-center">Tell us about your experience at Rosé aura!</v-card-subtitle>
+
       <v-form ref="feedbackForm" @submit.prevent="submitFeedback">
         <v-text-field v-model="name" label="Your Name" outlined required></v-text-field>
         <v-text-field v-model="email" label="Email" type="email" outlined required></v-text-field>
-        
+
         <v-rating v-model="rating" length="5" color="yellow" size="32"></v-rating>
-        
+
         <v-textarea v-model="message" label="Your Feedback" outlined required></v-textarea>
-        
+
         <v-btn color="blue" block @click="submitFeedback">Submit Feedback</v-btn>
       </v-form>
     </v-card>
@@ -58,7 +58,7 @@ const submitFeedback = () => {
   border-radius: 12px;
 }
 .feedback-container {
-      background: url('/background1.jpg') no-repeat center center/cover;
+      background: url('/public/Rosé aura.jpg') no-repeat center center/cover;
       min-height: 100vh;
       padding: 5rem 2rem;
     }

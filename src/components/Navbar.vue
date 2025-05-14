@@ -7,15 +7,9 @@
 
     <v-btn v-if="!mobile" to="/" color="white" text>Home</v-btn>
     <v-btn v-if="!mobile" to="/AboutPage" color="white" text>About</v-btn>
-    <v-btn v-if="!mobile" to="/ContactUs" color="white" text>Contact Us</v-btn>
-    <v-btn v-if="!mobile" to="/MenuList" color="white" text>Menu</v-btn>
-    <v-btn v-if="!mobile" to="/RestaurantList" color="white" text>Restaurants</v-btn>
-    <v-btn v-if="!mobile" to="/BookingForm" color="white" text>Book a Reservation</v-btn>
     <v-btn v-if="!mobile" to="/FeedbackForm" color="white" text>Feedback</v-btn>
-    <v-btn v-if="!mobile" to="/OrderPage" color="white" text>My Order</v-btn>
-
+   
     
-    <v-btn to="/login" color="white" outlined>Login</v-btn>
 
     <!-- Mobile Dropdown Menu -->
     <v-menu v-if="mobile" offset-y>
@@ -27,13 +21,9 @@
       <v-list>
         <v-list-item to="/"> <v-list-item-title>Home</v-list-item-title> </v-list-item>
         <v-list-item to="/AboutPage"> <v-list-item-title>About</v-list-item-title> </v-list-item>
-        <v-list-item to="/ContactUs"> <v-list-item-title>Contact Us</v-list-item-title> </v-list-item>
-        <v-list-item to="/MenuList"> <v-list-item-title>Menu</v-list-item-title> </v-list-item>
-        <v-list-item to="/RestaurantList"> <v-list-item-title>Restaurants</v-list-item-title> </v-list-item>
-        <v-list-item to="/BookingForm"> <v-list-item-title>Book a Reservation</v-list-item-title> </v-list-item>
         <v-list-item to="/FeedbackForm"> <v-list-item-title>Feedback</v-list-item-title> </v-list-item>
-        <v-list-item to="/OrderPage"> <v-list-item-title>My Order</v-list-item-title> </v-list-item>
-        <v-list-item to="/login"> <v-list-item-title>Login</v-list-item-title> </v-list-item>
+       
+       
       </v-list>
     </v-menu>
   </v-app-bar>

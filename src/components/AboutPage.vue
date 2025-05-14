@@ -15,8 +15,8 @@ onMounted(() => {
       <v-col cols="12" md="8" class="text-center">
         <v-fade-transition>
           <v-card class="pa-6 elevation-4 hero" v-if="fadeIn">
-            <v-card-title class="text-h3 font-weight-bold">Welcome to Moho</v-card-title>
-            <v-card-subtitle class="text-h5">An Experience Beyond Just Dining</v-card-subtitle>
+            <v-card-title class="text-h3 font-weight-bold">Welcome to Rosé Aura</v-card-title>
+            <v-card-subtitle class="text-h5">Your Destination for Beauty and Elegance</v-card-subtitle>
           </v-card>
         </v-fade-transition>
       </v-col>
@@ -35,9 +35,10 @@ onMounted(() => {
       </v-col>
       <v-col cols="12" md="6">
         <v-card class="pa-4">
-          <v-card-title>🍽️ About Moho</v-card-title>
+          <v-card-title>💄 About Rosé Aura</v-card-title>
           <v-card-text>
-            At Moho, flavors meet passion! We serve dishes crafted with love and fresh ingredients, creating an unforgettable dining experience.
+            At Rosé Aura, beauty meets passion! We offer premium makeup and skincare products crafted to enhance your
+            natural glow and elevate your beauty routine.
           </v-card-text>
         </v-card>
       </v-col>
@@ -46,9 +47,10 @@ onMounted(() => {
     <v-row>
       <v-col cols="12" md="6">
         <v-card class="pa-4">
-          <v-card-title>🌟 Our Culinary Philosophy</v-card-title>
+          <v-card-title>🌟 Our Beauty Philosophy</v-card-title>
           <v-card-text>
-            We blend fresh ingredients with creative flair to craft unique and memorable dishes. Every meal tells a story, taking you on a delicious journey.
+            We blend high-quality ingredients with innovative formulas to create makeup and skincare that empower
+            confidence. Every product is a step toward timeless beauty.
           </v-card-text>
         </v-card>
       </v-col>
@@ -56,7 +58,8 @@ onMounted(() => {
         <v-card class="pa-4">
           <v-card-title>🎯 Our Mission & Values</v-card-title>
           <v-card-text>
-            We create a warm and inviting space where food lovers can gather and enjoy authentic flavors. Sustainability, quality, and exceptional service drive everything we do.
+            We create an inspiring space where beauty lovers can explore and enjoy premium products. Quality,
+            inclusivity, and sustainability drive everything we do.
           </v-card-text>
         </v-card>
       </v-col>
@@ -66,25 +69,29 @@ onMounted(() => {
       <v-col cols="12" md="3">
         <v-card class="pa-4">
           <v-card-title>🔍 Our Vision</v-card-title>
-          <v-card-text>Redefining the food industry by integrating seamless digital experiences with top-tier cuisine.</v-card-text>
+          <v-card-text>Redefining the beauty industry by offering seamless shopping experiences and top-tier makeup
+            products.</v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12" md="3">
         <v-card class="pa-4">
           <v-card-title>🚀 Innovation</v-card-title>
-          <v-card-text>Our cutting-edge ordering system ensures efficiency, precision, and convenience like never before.</v-card-text>
+          <v-card-text>Our cutting-edge online platform ensures effortless browsing, selection, and purchase of beauty
+            essentials.</v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12" md="3">
         <v-card class="pa-4">
           <v-card-title>🤝 Commitment</v-card-title>
-          <v-card-text>We prioritize sustainability, local sourcing, and ethical practices in every dish we serve.</v-card-text>
+          <v-card-text>We prioritize cruelty-free products, sustainable sourcing, and ethical practices in every item we
+            offer.</v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12" md="3">
         <v-card class="pa-4">
           <v-card-title>🌍 Global Impact</v-card-title>
-          <v-card-text>Expanding beyond borders, we’re setting new standards in the culinary world.</v-card-text>
+          <v-card-text>Expanding beyond borders, we’re setting new standards in the beauty world with inclusive and
+            innovative products.</v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -92,7 +99,7 @@ onMounted(() => {
     <v-row justify="center" class="mt-6">
       <v-col cols="12" class="text-center">
         <v-card class="pa-3">
-          <v-card-text>© 2025 Moho. Crafted with passion & precision.</v-card-text>
+          <v-card-text>© 2025 Rosé Aura. Crafted with passion & precision.</v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -101,10 +108,11 @@ onMounted(() => {
 
 <style scoped>
 .about-container {
-  background: url('/background1.jpg') no-repeat center center/cover;
+  background: url('/public/Rosé aura.jpg') no-repeat center center/cover;
   min-height: 100vh;
   padding: 5rem 2rem;
 }
+
 .hero {
   background: rgba(34, 34, 34, 0.9);
   color: rgb(242, 223, 223);
